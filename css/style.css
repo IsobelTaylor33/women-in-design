@@ -1,0 +1,134 @@
+body {
+     font-family: "jost", sans-serif; 
+}
+body {
+    background:#c7c6c6;
+    color:#000000;
+     font-family: "Jost", sans-serif;
+    font-weight:500;
+}
+section,header {
+    width:80%;
+    max-width: 900px;
+    margin:auto;
+}
+header h2,blockquote {
+    font-family:"jost",sans-serif;
+    font-weight:400;
+    color:#0F4F83;
+    font-style:italic;
+    margin:1rem 0;
+    color:#0F4F83;
+    
+}
+section,header {
+    margin-bottom:3rem;
+}
+h1 {
+    font-size:  4rem;
+    line-height:1rem;
+    color:#975889;
+    margin:5rem01rem0;
+    padding: 60px;
+    margin-bottom: -7px;
+    text-align: center;
+}
+h2 {
+    font-size:  1.562rem;
+    line-height:1rem;
+    color:#404C6D;
+    margin-bottom: 2rem;
+}
+
+
+header h2 {
+    font-weight: bold;
+        color:#0F4F83;
+
+}
+
+header p {
+font-size:1.562rem;
+font-family:"jost",serif;
+}
+
+/*--styling--*/
+a {
+    color: #0F4F83;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-weight: 800;
+}
+a:hover {
+    color: #000000;
+}
+
+/*-- navigation --*/
+.responsivenav{
+    background-color:#0F4F83;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 1.75rem;
+    color: antiquewhite;
+    font-family: "jost" serif;
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+    font-size: 0.75rem;
+}
+
+nav a {
+    border-bottom: none;
+    color:antiquewhite;
+    padding: 10px;
+}
+
+nav a :hover {
+    color: antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- styling the footer --*/
+
+footer {
+    background: #0F4F83;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 2rem 0;
+}
+
+.light {
+    background: antiquewhite;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
+footer a:hover {
+    color: #000000;
+}
