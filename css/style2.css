@@ -1,0 +1,165 @@
+body {
+     font-family: "Google sans serif", sans-serif; 
+}
+body {
+    background:#c7c6c6;
+    color:#000000;
+     font-family: "Google sans serif", sans-serif;
+    font-weight: 600;
+}
+section,header {
+    width:80%;
+    max-width: 850px;
+    margin:auto;
+}
+header h2,blockquote {
+    font-family:"Google sans serif",sans-serif;
+    font: weight 500;
+    color:#69034e;
+    font-style:italic;
+    margin:4rem 0;
+    color:#69034e;
+}
+section,header {
+    margin-bottom:5rem;
+}
+h1 {
+    font-size:  4rem;
+    line-height:1.2;
+    color:#42035d;
+    margin:5rem 0 1rem 0;
+    padding: 5px;
+    text-align: center;
+
+}
+h2 {
+    font-size:  1.562rem;
+    line-height:1rem;
+    color:#69034e;
+    margin-bottom: 4rem;
+    font-weight: 600;   
+}
+
+header h1 {
+    font-family: ;
+}
+
+header h2 {
+    font-weight: 400;
+        color:#69034e;
+
+}
+
+header p {
+font-size:1.562rem;
+font-family:"jost",serif;
+}
+
+/*--styling--*/
+a {
+    color: #69034e;
+    text-decoration: none;
+    border-bottom: 2px dotted;
+    font-weight: 800;
+}
+a:hover {
+    color: #000000;
+}
+
+hr{
+    margin: 3rem 0 5rem 0;
+    
+}
+
+/* Thick black border */
+hr {
+  border: 1px solid #000000 ;
+}
+
+/*-- navigation --*/
+.responsivenav{
+    background-color: #541944;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 1.25rem;
+    color: antiquewhite;
+    font-family: "jost" serif;
+    font-weight: 600;
+    padding-left: 35px;
+}
+
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul{
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+    font-size: 0.75rem;
+}
+
+nav a {
+    border-bottom: none;
+    color:antiquewhite;
+    padding: 10px;
+}
+
+nav a :hover {
+    color: antiquewhite;
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Adding responsive element to images--*/
+
+.gridimage {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+
+/*-- styling the footer --*/
+
+footer {
+    background: #541944;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 4rem 0;
+}
+
+.light {
+    background: #cab3c6;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: antiquewhite;
+}
+
+footer a:hover {
+    color: #000000;
+}
+
+/*-- Adding media queries for different devices--*/
+
+@media (max-width:600px){
+    header h1 {
+        font-size: 4rem;}
+    .gridimage {
+        row-gap: 10px;
+    }
+}
