@@ -1,8 +1,8 @@
 body {
-     font-family: "jost"; 
+     font-family: "jost", sans-serif; 
 }
 body {
-    background:#d8e6f9;
+    background:#e0edff;
     color:#000000;
     font-family: "jost", sans-serif;
     font-weight: 400;
@@ -53,7 +53,7 @@ h3 {
 }
 
 header h1 {
-    font-family: "Google sans serif";
+    font-family: "Google sans serif", sans-serif;
 }
 
 header h2 {
@@ -68,7 +68,7 @@ header h3 {
 
 header p {
     font-size: 24px;
-    font-family: "jost";
+    font-family: "jost", sans-serif;
     line-height: 1.6;
     font-weight: 600;
     margin-top: 0.25rem;
@@ -99,12 +99,48 @@ blockquote {
     max-width: 700px;
     color: #000000;
     border-left: 2px solid #0F4F83;
-    background: #bbedff;
+    background: #e0edff;
    
+}
+.light{
+    color: #e0edff;
+    background: #0F4F83;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.special-heading {
+    color: #e0edff;
+    font-size: 2rem;
+    font-family: "jost", sans-serif;
+    font-weight: 600;
+    margin-top: 4rem;  
+    margin-bottom: 4rem;
+    line-height: 1rem;
+}
+.special-sub-headings {
+    font-family: "jost", sans-serif;
+    color:#e0edff;
+    margin-top: 2rem; 
+    font-weight: 600;
+    font-family: "jost", sans-serif; 
+    font-size: 1.25rem;
+    line-height: 1.4;
+    
+    
+}
+
+/*-- Decorative dropped capital--*/
+.dropcap{
+    font-family: "jost", sans-serif;
+    float: left;
+    font-size: 5.5rem ;
+    padding-right: 1rem;
+    line-height: .5;
+    color: #0F4F83;
 }
 
 
-/* Thick black border */
+/*-- Thick black border --*/
 hr {
   border: 1px solid #000000 ;
 }
@@ -120,8 +156,8 @@ hr {
 
 #logo{
     font-size: 1.75rem;
-    color: #d8e6f9;
-    font-family: "jost" serif;
+    color: #e0edff;
+    font-family: "jost", sans-serif;
     font-weight: 600;
     padding-left: 35px;
 }
@@ -142,7 +178,7 @@ nav ul{
 nav ul li {
     display: inline;
     margin: 5px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
 }
 
 nav a {
@@ -182,17 +218,11 @@ nav a :hover {
 
 footer {
     background: #0F4F83;
-    color: #f7f7f7;
+    color: #e0edff;
     text-align: center;
     font-size: 0.8rem;
     padding: 0.25rem 0;
 }
-
-.light {
-    background: #bbedff;
-    padding: 3rem 0;
-}
-
 footer a {
     color: #e0edff;
 }
