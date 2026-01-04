@@ -1,34 +1,5 @@
 body {
-     font-family: "jost"; 
-}
-body {
-    background:#e0edff;
-    color:#000000;
-    font-family: "jost", sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-    font-size: 20px;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    
-}
-section,header {
-    width:80%;
-    max-width: 1000px;
-    margin:auto;
-}
-
-header h2,blockquote {
-    font-family:"Google sans serif",sans-serif;
-    font: weight 500;
-    color:#0F4F83;
-    font-style:italic;
-    margin:4rem 0;
-    color:#0F4F83;
-}
-section,header {
-    margin-bottom:4rem;
+     font-family: "jost", sans-serif; 
 }
 h1 {
     font-size: 5rem;
@@ -38,38 +9,25 @@ h1 {
     padding-bottom: 85px;
     padding-top: 10px;
     text-align: center;
+    
 
-}
-h2 {
-    font-size:  2rem;
-    line-height:1rem;
-    color:#0F4F83;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    font-weight: 600;   
 }
 
 header h1 {
     font-family: "Google sans serif";
 }
 
-header h2 {
+h2 {
         font-weight: 600;
         color:#830f70;
         margin-top: 4rem;
         margin-bottom: 4rem;
-
-}
-header h3 {
-    font-weight: 400;
-    color: #0F4F83;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+        text-align: center;
 }
 
 header p {
     font-size: 24px;
-    font-family: "jost";
+    font-family: "jost", sans-serif;
     line-height: 1.6;
     font-weight: 500;
     margin-top: 0.25rem;
@@ -91,22 +49,6 @@ a:hover {
 hr{
     margin: 3rem 0 5rem 0;
     
-}
-blockquote {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    font-weight: 500;
-    padding: 1.5rem 2rem;
-    max-width: 700px;
-    color: #000000;
-    border-left: 2px solid #0F4F83;
-    background: #bbedff;
-   
-}
-
-/* Thick black border */
-hr {
-  border: 1px solid #000000 ;
 }
 
 /*-- navigation --*/
@@ -193,11 +135,6 @@ footer {
     padding: 0.25rem 0;
 }
 
-.light {
-    background: #bbedff;
-    padding: 3rem 0;
-}
-
 footer a {
     color: #e0edff;
 }
@@ -214,6 +151,9 @@ footer a:hover {
     .gridimage {
         row-gap: 10px;
     }
+}
+@media (max-width: 600px) { 
+    h2 { font-size: 1.5rem; } 
 }
 
 
