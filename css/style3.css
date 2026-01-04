@@ -1,6 +1,15 @@
+
 body {
-     font-family: "jost", sans-serif; 
+    background:#e0edff;
+    color:#000000;
+    font-family: "jost", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "jost", sans-serif;
 }
+
 h1 {
     font-size: 5rem;
     line-height: 1.2;
@@ -23,10 +32,11 @@ header h1 {
 }
 
 h2 {
-        font-weight: 600;
-        color:#830f70;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#830f70;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 header p {
